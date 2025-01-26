@@ -18,16 +18,16 @@ public class FranchiseServicesImpl implements FranchiseServices {
     }
 
     public Mono<FranchiseEntity> addFranchises(FranchiseEntity franchises){
-        return franchiseRepository.save(franchises);
+        return this.franchiseRepository.save(franchises);
     }
 
     public Flux<FranchiseEntity> listFrachises(){
-        return franchiseRepository.findAll();
+        return this.franchiseRepository.findAll();
     }
 
     @Override
     public Mono<FranchiseEntity> getFranchise(Long id) {
-        return franchiseRepository.findById(id);
+        return this.franchiseRepository.findById(id);
     }
 
 
