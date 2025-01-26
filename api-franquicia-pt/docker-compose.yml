@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: AccentureRoot
+      MYSQL_DATABASE: franquicias_db
+      MYSQL_USER: Accenture
+      MYSQL_PASSWORD: Accenture
+      MYSQL_ROOT_HOST: '%'
