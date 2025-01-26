@@ -1,7 +1,6 @@
 package com.pt.franquicia.api.api_franquicia_pt.service.interfaces;
 
 import com.pt.franquicia.api.api_franquicia_pt.persistence.entity.FranchiseEntity;
-import com.pt.franquicia.api.api_franquicia_pt.service.dto.UpdateFranchiseNameDto;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
